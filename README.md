@@ -1,18 +1,6 @@
+# Email Spoofing Detection 
 
-# Smart India Hackathon Finale 2022
-SIH 2022 brings the next generation evolution by inclusion of new methodology to inculcate the culture of startup and innovation ecosystem across different age groups
-
-# Problem Statement
-**PSID:** LC1076
-
-**PS Statement:** *Email Spoofing Detection* – Spoofed email with swapped email id(and IP too) can come to any user’s inbox. Suggest a mechanism to filter the spoofed email at server only.
-
-**Org:** Ministry of External Affairs (MEA)
-
-**Domain Bucket:** Blockchain and Cybersecurity
-
-**Image:**
-![Description](Link)
+Spoofed email with swapped email id(and IP too) can come to any user’s inbox. Suggest a mechanism to filter the spoofed email at server only.
 
 # Research
 - Data: spoof email stats to be uploaded in order to showcase research and understanding of the PS.
