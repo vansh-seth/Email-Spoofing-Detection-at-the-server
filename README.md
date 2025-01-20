@@ -1,5 +1,4 @@
 # Email Spoofing Detection 
-
 Spoofed email with swapped email id(and IP too) can come to any user’s inbox. Suggest a mechanism to filter the spoofed email at server only.
 
 # Research
