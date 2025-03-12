@@ -24,7 +24,7 @@ In order to find validity of an email and authentication of sender's information
 2. When it arrives on this particular model, a copy of database if formed wherein 3 specific fields i.e. Received-SPF, DKIM-signature, DMARC value is used for further process.
 3. Once these fields are retrieved various regex functions are used to extract values in form of `['PASS', 'NEUTRAL', 'SOFTFAIL', 'FAIL']` for SPF and `['PASS', 'FAIL']` for DKIM and DMARC.
 4. Values are then mapped to numerical values ranging from 0-3 (inclusive) where 0 denotes FAIL and 3 denotes PASS for SPF and 0,1 for DKIM and DMARC.
-5. Then using a common formula a score is generated which signifies the validity of an email.
+5. Then using a common formula, a score is generated which signifies the validity of an email.
 
 ## Formula
 `Score = val['spf'] * val['dkim'] * val['dmarc']`
