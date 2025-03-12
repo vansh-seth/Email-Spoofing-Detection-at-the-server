@@ -11,7 +11,7 @@ Spoofed email with swapped email ID (and IP too) can come to any user’s inbox.
 - Utilize 3 mins to explain solution mechanics and not brain.
 - Ask mentors for dataset.
 - Try to gain Jury interest.
-Once understood the problem statement and after countless meetings, discussions and brainstorming sessions we came up with an approach to block emails at the server 
+Once understood the problem statement and after countless meetings, discussions, and brainstorming sessions we came up with an approach to block emails at the server 
 # Stats
 - 96% of phishing attacks arrive by email
 # Solution
