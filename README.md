@@ -1,6 +1,5 @@
 # Email Spoofing Detection 
 Spoofed email with swapped email id(and IP too) can come to any user’s inbox. Suggest a mechanism to filter the spoofed email at server only.
-
 # Research
 - Data: spoof email stats to be uploaded in order to showcase research and understanding of the PS.
 - Route of Email from senders inbox to receivers inbox and area where we'll be apply our solution.
