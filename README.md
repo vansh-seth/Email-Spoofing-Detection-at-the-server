@@ -18,7 +18,6 @@ Once understood the problem statement and after countless meetings, discussions 
 1. Construction of a deployable container to perform the task of detecting a spoofed email.
 2. Adding additional fields to the email headers to let server understand the authentication of sender mail to if it falls in the category of spoof emails.
 ## Idea
-
 In order to find validity of an email and authentication of sender's information this particular function calculates a "score" that is formulated on the basis of values of SPF, DKIM, DMARC that comes with the email header. This score along with scores from different models are further used to determine whether an email is spoofed or not.
 
 ## Working
