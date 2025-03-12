@@ -19,7 +19,6 @@ Once understood the problem statement and after countless meetings, discussions 
 2. Adding additional fields to the email headers to let server understand the authentication of sender mail to if it falls in the category of spoof emails.
 ## Idea
 In order to find validity of an email and authentication of sender's information this particular function calculates a "score" that is formulated on the basis of values of SPF, DKIM, DMARC that comes with the email header. This score along with scores from different models are further used to determine whether an email is spoofed or not.
-
 ## Working
 1. Firstly, when an email arrives on the server the data from the header is retrieved and stored in a dataframe which is further passed to various models and function in order to determine the score.
 2. When it arrives on this particular model, a copy of database if formed wherein 3 specific fields i.e. Received-SPF, DKIM-signature, DMARC value is used for further process.
