@@ -33,8 +33,102 @@ In order to find validity of an email and authentication of sender's information
 ## Additional Ideas 
 - Implementing a method on server that verify registered domains owned by companies And maintaining a registry for same such that domain-name spoofing becomes inaccessible to spoofers.
 - ASCII character matching of domain names.
-- 
-
+## Structure
+```
+📦 
+├─ Backend
+│  ├─ api.py
+│  └─ lambda.py
+├─ Bert-Model
+│  ├─ Models.ipynb
+│  ├─ app.py
+│  └─ main.py
+├─ Database-Formation
+│  ├─ database_formation.ipynb
+│  ├─ meioc.py
+│  ├─ message.eml
+│  ├─ requirements.txt
+│  └─ self database
+│     └─ eml files
+│        ├─ e1.eml
+│        ├─ e2.eml
+│        ├─ e3.eml
+│        ├─ e4.eml
+│        └─ e5.eml
+├─ EMAIL CONNECTION
+│  ├─ README.md
+│  ├─ Readme2.md
+│  ├─ data
+│  │  ├─ Data Generation Code
+│  │  │  ├─ Email Connection Analysis.ipynb
+│  │  │  ├─ Email_Connection_Analysis_data.ipynb
+│  │  │  ├─ From user mails.py
+│  │  │  ├─ README.md
+│  │  │  ├─ To user mails.py
+│  │  │  ├─ combined.py
+│  │  │  └─ to-recieved, to-sent.py
+│  │  └─ data files
+│  │     ├─ README.md
+│  │     ├─ final data.xlsx
+│  │     ├─ final.csv
+│  │     ├─ hypothesis testing data.xlsx
+│  │     └─ neo4j data.csv
+│  ├─ neo4j credentials.txt
+│  ├─ reference
+│  │  └─ data
+│  │     ├─ README.md
+│  │     ├─ email-enron-only.mtx
+│  │     ├─ email-enron-only.zip
+│  │     └─ readme.html
+│  └─ results
+│     ├─ From-To-Relevancy Score Graph.png
+│     ├─ README.md
+│     ├─ Relation Graph.png
+│     ├─ email conection with relevancy.jpg
+│     └─ graph structure.jpg
+├─ FLOWCHARTS
+│  └─ Email Delivery Process.png
+├─ Go
+│  ├─ go.mod
+│  ├─ go.sum
+│  └─ main.go
+├─ IP-Details
+│  └─ IP_Domain_Details.ipynb
+├─ README.md
+├─ REFERENCE RESEARCH PAPERS
+│  ├─ ATTACKS
+│  │  └─ end to end measurements of email spoofing attacks.pdf
+│  ├─ DETECTION
+│  │  ├─ Detection of Spoofed mails.pdf
+│  │  ├─ Email Spoofing analysis.docx
+│  │  └─ Forensic analysis of E-mail address spoofing.pdf
+│  ├─ EMAIL SENDER AUTHENTICATION
+│  │  └─ Attacks On Email Sender Authentication.pdf
+│  ├─ GRAPH DATABASE
+│  │  └─ Emails as Graph- Relation Discovery in Email Archive.pdf
+│  └─ HEADER INFORMATION
+│     └─ Anomaly Detection in Emails using Machine Learning and Header Information.pdf
+├─ SPF-DKIM-DMARC
+│  ├─ Score-gen
+│  │  ├─ Readme.md
+│  │  ├─ data
+│  │  │  ├─ final_data.csv
+│  │  │  └─ spf-dkim-dmarc-vals.csv
+│  │  └─ model
+│  │     ├─ email_to_json.ipynb
+│  │     └─ spf_dkim_dmarc_score_generator.ipynb
+│  ├─ data
+│  │  ├─ preprocessed_spam_ham_phishing.csv
+│  │  └─ spf-dkim-dmarc-vals.csv
+│  └─ images
+│     └─ Screenshot 2022-07-23 001943.png
+├─ Server
+│  └─ docker-compose.yml
+└─ Spoofed Mail Database
+   ├─ README.md
+   ├─ Spoof_Trigger.ipynb
+   └─ final_data.csv
+```
 ## Conclusion 
 Generated score defines whether an email is spoof, Potential spoof or legitimate on the basis of score. Lesser the overall score more the chances of it being spoofed.
 
